@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>JS PWA</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- 내부 자바스크립트 -->
+    <!-- 여기도 가능
+    <script>
+    // alert("Hello World");
+    // console.log("Hello World")
+    </script>
+    -->
+    <!-- 외부 자바스크립트 -->
+    <script src="./scripts/dicegame2.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <h1>자바스크립트 연습</h1>
+        </header>
+        <!-- 여기도 가능
+            <script>
+                alert("Hello World");
+            </script>
+        -->
+        <main id="content">
+            <section id="msg">
+            </section>
+            <section id="choice">
+                <form name="form1" id="form1">
+                    <fieldset>
+                        <legend>번호 선택</legend>
+                        <div>
+                            <input type="radio" name="num" id="1" value="1">
+                            <label for="1">1</label>
+                            <input type="radio" name="num" id="2" value="2">
+                            <label for="2">2</label>
+                            <input type="radio" name="num" id="3" value="3">
+                            <label for="3">3</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="num" id="4" value="4">
+                            <label for="4">4</label>
+                            <input type="radio" name="num" id="5" value="5">
+                            <label for="5">5</label>
+                            <input type="radio" name="num" id="6" value="6">
+                            <label for="6">6</label>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+            <section id="bt">
+                <button id="bt1" onclick="show();">주사위</button>
+                <button id="bt2" onclick="play();">확인</button>
+            </section>
+        </main>
+    </div>
+    <!-- 여기도 가능
+        <script>
+            alert("Hello World");
+        </script>
+    -->
+</body>
+
+</html>
