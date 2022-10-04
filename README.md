@@ -1,7 +1,7 @@
 # 자바스크립트
 
 ## 웹서비스
-https://danmiee.github.io/Project2_dice/
+https://danmiee.github.io/Project2_Dice/
 
 ## 주사위게임 진행방법
 1. 주사위버튼 클릭 > 랜덤주사위 작동
